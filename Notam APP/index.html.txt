@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- PWA -->
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#0f6fff">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="apple-touch-icon" href="icon-192.png">
+
+<title>NOTAM Lernapp</title>
+
+<style>
+  body { font-family: Arial; padding: 20px; }
+</style>
+</head>
+
+<body>
+  <h1>NOTAM Lern-App</h1>
+  <p>Die App ist installiertfähig. Füge später hier deinen großen HTML-Code ein.</p>
+
+<script>
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("sw.js");
+}
+</script>
+</body>
+</html>
